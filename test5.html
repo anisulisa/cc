@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .header{
+            background-color: coral;
+            color: white;
+            padding: 1% 5%;
+            text-align: center;
+        }
+        .nav-menu{
+            padding: 1% 5%;
+            background-color: #39a4ac;
+        }
+        .nav-menu a{
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 1.2rem;
+            display: block;
+        }
+        .main{
+            padding: 1% 5%;
+            background-color: turquoise;
+        }
+        .aside{
+            padding: 1% 5%;
+            background-color: #39a4ac;
+            text-align: center;
+        }
+        .footer{
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+        /* For desktop: */
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+        [class*="col-"]{
+            float: left;
+            padding: 10px;
+        }
+        .row::after{
+            content: '';
+            clear: both;
+            display: table;
+        }
+        @media screen and (max-width:768px) {
+            
+            [class*="col-"]{
+                width: 100%;
+            }
+            .nav-menu a{
+                text-align: center;
+                background-color: aqua;
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Ashraful Karim</h1>
+    </div>
+
+    <div class="row">
+        <div class="nav-menu col-2">
+            <a href="#">Home</a>
+            <a href="#">Tutorial</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="main col-7">
+            <h1>I am a web designer</h1>
+            <p>Kasd takimata sit vero sit sit aliquyam, dolores erat sed et amet diam et sed erat ut, lorem vero rebum.</p>
+            <p>Ipsum ea invidunt gubergren invidunt diam labore dolore et, sadipscing ipsum dolore sit at, no et lorem at et aliquyam tempor accusam eirmod. Et sit clita kasd diam, sed voluptua stet et ipsum at takimata, takimata eirmod dolor magna est et elitr, at tempor consetetur at amet dolore, et ipsum vero dolor dolor kasd. Magna justo sed sea at et lorem takimata erat gubergren. Justo lorem ipsum sed vero ipsum sea. Et accusam ut stet elitr eirmod nonumy rebum kasd, ut sed invidunt vero sed, consetetur dolor takimata erat accusam clita erat est erat. Consetetur dolor stet aliquyam sit sanctus.Ipsum gubergren sanctus sed sadipscing dolor stet consetetur eos aliquyam, rebum stet vero ut et kasd lorem nonumy. Stet accusam dolor no dolores magna et diam sed. Ut takimata no accusam elitr consetetur voluptua accusam, erat lorem no aliquyam takimata, diam kasd amet at duo no, duo et nonumy sed invidunt diam dolore, vero diam nonumy justo at, ea dolor voluptua eirmod takimata dolor sit takimata labore sit. Vero ipsum duo amet sea dolore, kasd sed sit invidunt sed amet. Accusam sea ea kasd sanctus accusam. Et justo diam takimata sadipscing ipsum sed ipsum dolor dolores, consetetur clita invidunt dolor gubergren et sadipscing nonumy accusam at, aliquyam diam no invidunt diam no. Diam tempor et ipsum takimata vero amet, ea ipsum kasd est tempor ea. Vero accusam eos et dolores, eirmod amet sea sed sadipscing. Tempor ea dolores sit no voluptua amet erat stet diam. Labore est elitr eos dolores.</p>
+            <p>Sit sed rebum rebum gubergren et tempor. Voluptua lorem takimata ipsum et magna, et dolore consetetur erat stet est justo lorem eirmod lorem, dolores eos no sea lorem amet sea, tempor no dolor ipsum consetetur gubergren, eos ut labore elitr sit erat dolores erat sit sit, takimata lorem kasd aliquyam elitr lorem. Et vero elitr gubergren lorem eirmod ipsum voluptua, accusam ipsum sed takimata sed, et et diam sadipscing erat, at sea gubergren no ut. Consetetur erat sit duo diam dolor nonumy amet sit sit. Ut sed et sit accusam. Rebum aliquyam tempor duo est invidunt. Labore voluptua lorem rebum gubergren sanctus accusam elitr justo labore, sanctus no labore consetetur sadipscing at sadipscing ea ut stet. At tempor magna ipsum duo magna ipsum amet diam. Gubergren consetetur lorem sadipscing magna dolores. Sed clita amet justo no kasd invidunt justo gubergren. Ea sadipscing sadipscing gubergren et gubergren. Amet sed aliquyam eirmod at elitr et eirmod. Clita aliquyam sanctus takimata labore amet. Erat et tempor ea lorem gubergren labore. Lorem amet no est ea vero kasd labore rebum ipsum. Amet accusam rebum justo dolores et, invidunt diam tempor ipsum est dolor at, dolore dolores lorem sit ea sea, et nonumy diam invidunt eirmod lorem sed erat sed. Ipsum est sit at tempor aliquyam takimata. Consetetur et tempor tempor ipsum aliquyam, erat invidunt no lorem et lorem sadipscing ipsum. Kasd et ipsum labore vero at eirmod ipsum ut diam, et dolores takimata invidunt diam consetetur eirmod sed sed, eos sadipscing at elitr nonumy.</p>
+        </div>
+        <div class="aside col-3">
+            <h2>what I love?</h2>
+            <p>Lorem ea stet gubergren sanctus aliquyam rebum ea sed. At et gubergren et dolor kasd.</p>
+
+            <h2>what I Do?</h2>
+            <p>Lorem ea stet gubergren sanctus aliquyam rebum ea sed. At et gubergren et dolor kasd.</p>
+
+            <h2>what I don,t love?</h2>
+            <p>Lorem ea stet gubergren sanctus aliquyam rebum ea sed. At et gubergren et dolor kasd.</p>
+
+            <h2>what I don,t Do?</h2>
+        </div>
+    </div>
+        <div class="footer">
+            <p>@ Study With Anis Developed By Ashraful Karim</p>
+        </div>
+</body>
+</html>
